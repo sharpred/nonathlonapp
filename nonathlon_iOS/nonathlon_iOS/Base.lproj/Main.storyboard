@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rankings-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="nonathlon_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x2N-pg-2JX">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="xcB-hW-AxC"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Rankings" id="s6x-ca-Im2"/>
+                                </items>
+                            </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hed-aB-DDW">
+                                <rect key="frame" x="20" y="506" width="560" height="35"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="18r-lm-iFD"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TxR-fz-mg2">
+                                <rect key="frame" x="20" y="60" width="560" height="446"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="418" id="NfR-e3-c1o"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="NfR-e3-c1o"/>
+                                    </mask>
+                                </variation>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TxR-fz-mg2" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="40" id="3cz-aN-o4L"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="Hed-aB-DDW" secondAttribute="bottom" constant="8" symbolic="YES" id="49t-Ix-iRA"/>
+                            <constraint firstItem="x2N-pg-2JX" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="8we-72-D2w"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="Hed-aB-DDW" secondAttribute="bottom" constant="10" id="SHv-MB-xDc"/>
+                            <constraint firstItem="x2N-pg-2JX" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="Wwq-LM-EuD"/>
+                            <constraint firstItem="x2N-pg-2JX" firstAttribute="centerX" secondItem="TxR-fz-mg2" secondAttribute="centerX" id="bci-DV-x4E"/>
+                            <constraint firstItem="TxR-fz-mg2" firstAttribute="trailing" secondItem="Hed-aB-DDW" secondAttribute="trailing" id="gO9-IB-nYC"/>
+                            <constraint firstItem="TxR-fz-mg2" firstAttribute="leading" secondItem="Hed-aB-DDW" secondAttribute="leading" id="nO1-Ey-UGN"/>
+                            <constraint firstItem="x2N-pg-2JX" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="topMargin" id="nrP-1F-a8E"/>
+                            <constraint firstAttribute="trailing" secondItem="x2N-pg-2JX" secondAttribute="trailing" id="tnu-h5-gB9"/>
+                            <constraint firstItem="Hed-aB-DDW" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="uBt-sO-zvs"/>
+                            <constraint firstItem="Hed-aB-DDW" firstAttribute="top" secondItem="TxR-fz-mg2" secondAttribute="bottom" id="ybZ-tE-Bk7"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="49t-Ix-iRA"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rankings" image="list" selectedImage="list" id="acW-dT-cKf">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="20"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1097" y="-529"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="WLD-L5-nIa">
+            <objects>
+                <viewController id="hS8-qZ-hHv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="04o-g4-u5V"/>
+                        <viewControllerLayoutGuide type="bottom" id="MGP-l9-4lf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R9G-T4-Q9N">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gPq-GK-NNE">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PqL-AS-G2j"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Profile" id="Dt2-wd-8eB"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gPq-GK-NNE" firstAttribute="leading" secondItem="R9G-T4-Q9N" secondAttribute="leadingMargin" constant="-20" id="Q5b-SF-lOy"/>
+                            <constraint firstItem="gPq-GK-NNE" firstAttribute="top" secondItem="R9G-T4-Q9N" secondAttribute="topMargin" id="lIt-yA-aBZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="gPq-GK-NNE" secondAttribute="trailing" constant="-20" id="pYe-Vg-6O7"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="user" selectedImage="user" id="rra-df-KgA">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="20"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cpy-oS-U7j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="484" y="474"/>
+        </scene>
+        <!--Scores-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="nonathlon_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RTq-5P-mxU">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="eZO-Ty-hGf"/>
+                                    <constraint firstAttribute="height" constant="50" id="uXY-Ul-y0j"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Scores" id="9vp-rp-gVc"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RTq-5P-mxU" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="-20" id="HnO-A9-rth"/>
+                            <constraint firstItem="RTq-5P-mxU" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="topMargin" id="ZsA-ex-wFY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RTq-5P-mxU" secondAttribute="trailing" constant="-20" id="orJ-GH-LtU"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Scores" image="record" selectedImage="record" id="cPa-gy-q4n">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="20"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1111" y="107"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="hS8-qZ-hHv" kind="relationship" relationship="viewControllers" id="TpG-LQ-oBb"/>
+                        <segue destination="FHC-zX-Uzn" kind="relationship" relationship="viewControllers" id="RaL-QZ-RUF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="Bss-3G-vPE">
+            <objects>
+                <viewController title="More" id="FHC-zX-Uzn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p0W-hZ-VmA"/>
+                        <viewControllerLayoutGuide type="bottom" id="JwC-pg-i6f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rjI-AA-KYT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ig-uz-bjM">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="vmL-rk-Rzj"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="More" id="vdY-c2-A17"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9ig-uz-bjM" firstAttribute="top" secondItem="rjI-AA-KYT" secondAttribute="topMargin" id="NYg-BK-uT2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9ig-uz-bjM" secondAttribute="trailing" constant="-20" id="RvA-RB-TbC"/>
+                            <constraint firstItem="9ig-uz-bjM" firstAttribute="leading" secondItem="rjI-AA-KYT" secondAttribute="leadingMargin" constant="-20" id="u2I-tX-Xa6"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="More" image="more" selectedImage="more" id="OVk-Hs-YCe">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="20"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RMU-7T-5Qd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="463" y="-548"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="list" width="24" height="21"/>
+        <image name="more" width="22" height="6"/>
+        <image name="record" width="20" height="20"/>
+        <image name="user" width="23" height="22"/>
+    </resources>
+</document>

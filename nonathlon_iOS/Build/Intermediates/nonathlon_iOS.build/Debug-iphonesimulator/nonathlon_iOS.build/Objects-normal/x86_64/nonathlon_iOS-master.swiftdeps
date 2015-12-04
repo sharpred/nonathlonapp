@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "b72e934fcf5b9c9d8a476cbd0c879fa9"
+build_time: [502053066, 461707000]
+inputs:
+  "/Users/paulryan/Documents/projects/nonathlon/app/nonathlon_iOS/nonathlon_iOS/model.swift": [502051795, 0]
+  "/Users/paulryan/Documents/projects/nonathlon/app/nonathlon_iOS/nonathlon_iOS/SecondViewController.swift": [501118560, 0]
+  "/Users/paulryan/Documents/projects/nonathlon/app/nonathlon_iOS/nonathlon_iOS/FirstViewController.swift": [501276189, 0]
+  "/Users/paulryan/Documents/projects/nonathlon/app/nonathlon_iOS/nonathlon_iOS/AppDelegate.swift": [502053052, 0]

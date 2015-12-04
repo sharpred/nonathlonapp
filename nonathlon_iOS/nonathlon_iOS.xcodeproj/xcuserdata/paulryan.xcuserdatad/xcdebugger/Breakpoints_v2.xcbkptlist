@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nonathlon_iOS/model.swift"
+            timestampString = "470423440.491208"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "Rower"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nonathlon_iOS.Rower.init (nonathlon_iOS.Rower.Type)() -&gt; nonathlon_iOS.Rower"
+                  moduleName = "nonathlon_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulryan/Documents/projects/nonathlon/app/nonathlon_iOS/nonathlon_iOS/model.swift"
+                  timestampString = "470426982.988972"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nonathlon_iOS.Rower.init (nonathlon_iOS.Rower.Type)(value : Swift.AnyObject) -&gt; nonathlon_iOS.Rower"
+                  moduleName = "nonathlon_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulryan/Documents/projects/nonathlon/app/nonathlon_iOS/nonathlon_iOS/model.swift"
+                  timestampString = "470426982.989425"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nonathlon_iOS.Rower.init (nonathlon_iOS.Rower.Type)(realm : __ObjC.RLMRealm, schema : __ObjC.RLMObjectSchema) -&gt; nonathlon_iOS.Rower"
+                  moduleName = "nonathlon_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulryan/Documents/projects/nonathlon/app/nonathlon_iOS/nonathlon_iOS/model.swift"
+                  timestampString = "470426982.989794"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nonathlon_iOS.Rower.init (nonathlon_iOS.Rower.Type)(value : Swift.AnyObject, schema : __ObjC.RLMSchema) -&gt; nonathlon_iOS.Rower"
+                  moduleName = "nonathlon_iOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/paulryan/Documents/projects/nonathlon/app/nonathlon_iOS/nonathlon_iOS/model.swift"
+                  timestampString = "470426982.990152"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

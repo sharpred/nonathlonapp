@@ -1,0 +1,306 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Rower"
+- "Gender"
+- "Weight"
+- "Distance"
+- "Score"
+provides-nominal:
+- "C13nonathlon_iOS5Rower"
+- "C13nonathlon_iOS6Gender"
+- "C13nonathlon_iOS6Weight"
+- "C13nonathlon_iOS8Distance"
+- "C13nonathlon_iOS5Score"
+provides-member:
+- ["C13nonathlon_iOS5Rower", ""]
+- ["C13nonathlon_iOS6Gender", ""]
+- ["C13nonathlon_iOS6Weight", ""]
+- ["C13nonathlon_iOS8Distance", ""]
+- ["C13nonathlon_iOS5Score", ""]
+provides-dynamic-lookup:
+- "primaryKey"
+- "primaryKey"
+- "primaryKey"
+- "shortCode"
+- "shortCode"
+- "gender"
+- "name"
+- "name"
+- "name"
+- "name"
+- "date"
+- "weight"
+- "id"
+- "id"
+- "id"
+- "id"
+- "id"
+- "dob"
+- "distance"
+- "rower"
+depends-top-level:
+- "Score"
+- "Weight"
+- "List"
+- "Distance"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "String"
+- "NSDate"
+- "Rower"
+- "Gender"
+- "Object"
+- "StringLiteralType"
+depends-member:
+- ["PSs9AnyObject", "List"]
+- ["PSs9AnyObject", "date"]
+- ["PSs9AnyObject", "distance"]
+- ["PSs9AnyObject", "dob"]
+- ["PSs9AnyObject", "gender"]
+- ["PSs9AnyObject", "id"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "primaryKey"]
+- ["PSs9AnyObject", "rower"]
+- ["PSs9AnyObject", "scores"]
+- ["PSs9AnyObject", "shortCode"]
+- ["PSs9AnyObject", "weight"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "date"]
+- ["PSs11CVarArgType", "distance"]
+- ["PSs11CVarArgType", "dob"]
+- ["PSs11CVarArgType", "gender"]
+- ["PSs11CVarArgType", "id"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "name"]
+- ["PSs11CVarArgType", "primaryKey"]
+- ["PSs11CVarArgType", "rower"]
+- ["PSs11CVarArgType", "scores"]
+- ["PSs11CVarArgType", "shortCode"]
+- ["PSs11CVarArgType", "weight"]
+- ["PSs14CollectionType", "init"]
+- ["PSs23CustomStringConvertible", "date"]
+- ["PSs23CustomStringConvertible", "distance"]
+- ["PSs23CustomStringConvertible", "dob"]
+- ["PSs23CustomStringConvertible", "gender"]
+- ["PSs23CustomStringConvertible", "id"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "name"]
+- ["PSs23CustomStringConvertible", "primaryKey"]
+- ["PSs23CustomStringConvertible", "rower"]
+- ["PSs23CustomStringConvertible", "scores"]
+- ["PSs23CustomStringConvertible", "shortCode"]
+- ["PSs23CustomStringConvertible", "weight"]
+- ["C13nonathlon_iOS8Distance", "deinit"]
+- ["C13nonathlon_iOS8Distance", "id"]
+- ["C13nonathlon_iOS8Distance", "init"]
+- ["C13nonathlon_iOS8Distance", "name"]
+- ["C13nonathlon_iOS8Distance", "shortCode"]
+- ["PSs9Equatable", "date"]
+- ["PSs9Equatable", "distance"]
+- ["PSs9Equatable", "dob"]
+- ["PSs9Equatable", "gender"]
+- ["PSs9Equatable", "id"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "name"]
+- ["PSs9Equatable", "primaryKey"]
+- ["PSs9Equatable", "rower"]
+- ["PSs9Equatable", "scores"]
+- ["PSs9Equatable", "shortCode"]
+- ["PSs9Equatable", "weight"]
+- ["C13nonathlon_iOS6Gender", "String"]
+- ["C13nonathlon_iOS6Gender", "deinit"]
+- ["C13nonathlon_iOS6Gender", "id"]
+- ["C13nonathlon_iOS6Gender", "init"]
+- ["C13nonathlon_iOS6Gender", "name"]
+- ["C13nonathlon_iOS6Gender", "primaryKey"]
+- ["PSs8Hashable", "date"]
+- ["PSs8Hashable", "distance"]
+- ["PSs8Hashable", "dob"]
+- ["PSs8Hashable", "gender"]
+- ["PSs8Hashable", "id"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "name"]
+- ["PSs8Hashable", "primaryKey"]
+- ["PSs8Hashable", "rower"]
+- ["PSs8Hashable", "scores"]
+- ["PSs8Hashable", "shortCode"]
+- ["PSs8Hashable", "weight"]
+- ["PSs9Indexable", "init"]
+- ["C10RealmSwift4List", "init"]
+- ["PSo17NSFastEnumeration", "init"]
+- ["CSo8NSObject", "Distance"]
+- ["CSo8NSObject", "Gender"]
+- ["CSo8NSObject", "List"]
+- ["CSo8NSObject", "NSDate"]
+- ["CSo8NSObject", "Rower"]
+- ["CSo8NSObject", "Score"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Weight"]
+- ["CSo8NSObject", "date"]
+- ["CSo8NSObject", "distance"]
+- ["CSo8NSObject", "dob"]
+- ["CSo8NSObject", "gender"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "primaryKey"]
+- ["CSo8NSObject", "rower"]
+- ["CSo8NSObject", "scores"]
+- ["CSo8NSObject", "shortCode"]
+- ["CSo8NSObject", "weight"]
+- ["PSo16NSObjectProtocol", "date"]
+- ["PSo16NSObjectProtocol", "distance"]
+- ["PSo16NSObjectProtocol", "dob"]
+- ["PSo16NSObjectProtocol", "gender"]
+- ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "primaryKey"]
+- ["PSo16NSObjectProtocol", "rower"]
+- ["PSo16NSObjectProtocol", "scores"]
+- ["PSo16NSObjectProtocol", "shortCode"]
+- ["PSo16NSObjectProtocol", "weight"]
+- ["C10RealmSwift6Object", "Distance"]
+- ["C10RealmSwift6Object", "Gender"]
+- ["C10RealmSwift6Object", "List"]
+- ["C10RealmSwift6Object", "NSDate"]
+- ["C10RealmSwift6Object", "Rower"]
+- ["C10RealmSwift6Object", "Score"]
+- ["C10RealmSwift6Object", "String"]
+- ["C10RealmSwift6Object", "Weight"]
+- ["C10RealmSwift6Object", "date"]
+- ["C10RealmSwift6Object", "distance"]
+- ["C10RealmSwift6Object", "dob"]
+- ["C10RealmSwift6Object", "gender"]
+- ["C10RealmSwift6Object", "id"]
+- ["C10RealmSwift6Object", "init"]
+- ["C10RealmSwift6Object", "name"]
+- ["C10RealmSwift6Object", "primaryKey"]
+- ["C10RealmSwift6Object", "rower"]
+- ["C10RealmSwift6Object", "scores"]
+- ["C10RealmSwift6Object", "shortCode"]
+- ["C10RealmSwift6Object", "weight"]
+- ["C10RealmSwift6Object", ""]
+- !private ["Sq", "deinit"]
+- ["CSo13RLMObjectBase", "Distance"]
+- ["CSo13RLMObjectBase", "Gender"]
+- ["CSo13RLMObjectBase", "List"]
+- ["CSo13RLMObjectBase", "NSDate"]
+- ["CSo13RLMObjectBase", "Rower"]
+- ["CSo13RLMObjectBase", "Score"]
+- ["CSo13RLMObjectBase", "String"]
+- ["CSo13RLMObjectBase", "Weight"]
+- ["CSo13RLMObjectBase", "date"]
+- ["CSo13RLMObjectBase", "distance"]
+- ["CSo13RLMObjectBase", "dob"]
+- ["CSo13RLMObjectBase", "gender"]
+- ["CSo13RLMObjectBase", "id"]
+- ["CSo13RLMObjectBase", "init"]
+- ["CSo13RLMObjectBase", "name"]
+- ["CSo13RLMObjectBase", "primaryKey"]
+- ["CSo13RLMObjectBase", "rower"]
+- ["CSo13RLMObjectBase", "scores"]
+- ["CSo13RLMObjectBase", "shortCode"]
+- ["CSo13RLMObjectBase", "weight"]
+- ["PSs30RangeReplaceableCollectionType", "init"]
+- ["P10RealmSwift19RealmCollectionType", "init"]
+- ["C13nonathlon_iOS5Rower", "Gender"]
+- ["C13nonathlon_iOS5Rower", "List"]
+- ["C13nonathlon_iOS5Rower", "NSDate"]
+- ["C13nonathlon_iOS5Rower", "Score"]
+- ["C13nonathlon_iOS5Rower", "String"]
+- ["C13nonathlon_iOS5Rower", "Weight"]
+- ["C13nonathlon_iOS5Rower", "deinit"]
+- ["C13nonathlon_iOS5Rower", "dob"]
+- ["C13nonathlon_iOS5Rower", "gender"]
+- ["C13nonathlon_iOS5Rower", "id"]
+- ["C13nonathlon_iOS5Rower", "init"]
+- ["C13nonathlon_iOS5Rower", "name"]
+- ["C13nonathlon_iOS5Rower", "primaryKey"]
+- ["C13nonathlon_iOS5Rower", "scores"]
+- ["C13nonathlon_iOS5Rower", "weight"]
+- ["C13nonathlon_iOS5Score", "Distance"]
+- ["C13nonathlon_iOS5Score", "NSDate"]
+- ["C13nonathlon_iOS5Score", "Rower"]
+- ["C13nonathlon_iOS5Score", "date"]
+- ["C13nonathlon_iOS5Score", "deinit"]
+- ["C13nonathlon_iOS5Score", "distance"]
+- ["C13nonathlon_iOS5Score", "id"]
+- ["C13nonathlon_iOS5Score", "init"]
+- ["C13nonathlon_iOS5Score", "rower"]
+- ["PSs12SequenceType", "init"]
+- ["C13nonathlon_iOS6Weight", "String"]
+- ["C13nonathlon_iOS6Weight", "deinit"]
+- ["C13nonathlon_iOS6Weight", "id"]
+- ["C13nonathlon_iOS6Weight", "init"]
+- ["C13nonathlon_iOS6Weight", "name"]
+- ["C13nonathlon_iOS6Weight", "primaryKey"]
+- ["C13nonathlon_iOS6Weight", "shortCode"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs14CollectionType"
+- "PSs23CustomStringConvertible"
+- "C13nonathlon_iOS8Distance"
+- "PSs9Equatable"
+- "C13nonathlon_iOS6Gender"
+- "PSs8Hashable"
+- "PSs9Indexable"
+- "C10RealmSwift4List"
+- "PSo17NSFastEnumeration"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C10RealmSwift6Object"
+- !private "Sq"
+- "CSo13RLMObjectBase"
+- "PSs30RangeReplaceableCollectionType"
+- "P10RealmSwift19RealmCollectionType"
+- "C13nonathlon_iOS5Rower"
+- "C13nonathlon_iOS5Score"
+- "PSs12SequenceType"
+- "C13nonathlon_iOS6Weight"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/paulryan/Documents/projects/nonathlon/app/nonathlon_iOS/RealmSwift.framework/Modules/RealmSwift.swiftmodule/arm64.swiftmodule"
+- "./Realm.framework/Headers/RLMObjectBase_Dynamic.h"
+- "./Realm.framework/Headers/RLMRealm_Dynamic.h"
+- "./Realm.framework/PrivateHeaders/RLMSchema_Private.h"
+- "./Realm.framework/PrivateHeaders/RLMResults_Private.h"
+- "./Realm.framework/PrivateHeaders/RLMRealm_Private.h"
+- "./Realm.framework/PrivateHeaders/RLMRealmUtil.h"
+- "./Realm.framework/PrivateHeaders/RLMProperty_Private.h"
+- "./Realm.framework/PrivateHeaders/RLMOptionalBase.h"
+- "./Realm.framework/PrivateHeaders/RLMObject_Private.h"
+- "./Realm.framework/PrivateHeaders/RLMObjectStore.h"
+- "./Realm.framework/PrivateHeaders/RLMObjectSchema_Private.h"
+- "./Realm.framework/PrivateHeaders/RLMMigration_Private.h"
+- "./Realm.framework/PrivateHeaders/RLMListBase.h"
+- "./Realm.framework/PrivateHeaders/RLMRealmConfiguration_Private.h"
+- "./Realm.framework/PrivateHeaders/RLMArray_Private.h"
+- "./Realm.framework/PrivateHeaders/RLMAccessor.h"
+- "./Realm.framework/Headers/RLMSchema.h"
+- "./Realm.framework/Headers/RLMResults.h"
+- "./Realm.framework/Headers/RLMRealmConfiguration.h"
+- "./Realm.framework/Headers/RLMRealm.h"
+- "./Realm.framework/Headers/RLMConstants.h"
+- "./Realm.framework/Headers/RLMProperty.h"
+- "./Realm.framework/Headers/RLMPlatform.h"
+- "./Realm.framework/Headers/RLMObjectSchema.h"
+- "./Realm.framework/Headers/RLMObjectBase.h"
+- "./Realm.framework/Headers/RLMObject.h"
+- "./Realm.framework/Headers/RLMMigration.h"
+- "./Realm.framework/Headers/RLMDefines.h"
+- "./Realm.framework/Headers/RLMCollection.h"
+- "./Realm.framework/Headers/RLMArray.h"
+- "./Realm.framework/Headers/Realm.h"
+- "./Realm.framework/Modules/module.modulemap"
+interface-hash: "8f11560813eb09ca8ba57bfa2d264528"

@@ -87,6 +87,7 @@ typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
+@import RealmSwift;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -107,6 +108,21 @@ SWIFT_CLASS("_TtC13nonathlon_iOS11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class RLMRealm;
+@class RLMObjectSchema;
+@class RLMSchema;
+
+SWIFT_CLASS("_TtC13nonathlon_iOS8Distance")
+@interface Distance : Object
+@property (nonatomic) NSInteger id;
+@property (nonatomic, copy) NSString * __nonnull name;
+@property (nonatomic, copy) NSString * __nonnull shortCode;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id __nonnull)value OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRealm:(RLMRealm * __nonnull)realm schema:(RLMObjectSchema * __nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id __nonnull)value schema:(RLMSchema * __nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSBundle;
 @class NSCoder;
 
@@ -119,12 +135,67 @@ SWIFT_CLASS("_TtC13nonathlon_iOS19FirstViewController")
 @end
 
 
+SWIFT_CLASS("_TtC13nonathlon_iOS6Gender")
+@interface Gender : Object
+@property (nonatomic) NSInteger id;
+@property (nonatomic, copy) NSString * __nonnull name;
++ (NSString * __nullable)primaryKey;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id __nonnull)value OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRealm:(RLMRealm * __nonnull)realm schema:(RLMObjectSchema * __nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id __nonnull)value schema:(RLMSchema * __nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class Weight;
+@class NSDate;
+
+SWIFT_CLASS("_TtC13nonathlon_iOS5Rower")
+@interface Rower : Object
+@property (nonatomic) NSInteger id;
+@property (nonatomic, copy) NSString * __nonnull name;
+@property (nonatomic, strong) Weight * __null_unspecified weight;
+@property (nonatomic, strong) Gender * __null_unspecified gender;
+@property (nonatomic, strong) NSDate * __null_unspecified dob;
++ (NSString * __nullable)primaryKey;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id __nonnull)value OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRealm:(RLMRealm * __nonnull)realm schema:(RLMObjectSchema * __nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id __nonnull)value schema:(RLMSchema * __nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13nonathlon_iOS5Score")
+@interface Score : Object
+@property (nonatomic) NSInteger id;
+@property (nonatomic, strong) NSDate * __null_unspecified date;
+@property (nonatomic, strong) Distance * __null_unspecified distance;
+@property (nonatomic, strong) Rower * __null_unspecified rower;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id __nonnull)value OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRealm:(RLMRealm * __nonnull)realm schema:(RLMObjectSchema * __nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id __nonnull)value schema:(RLMSchema * __nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 SWIFT_CLASS("_TtC13nonathlon_iOS20SecondViewController")
 @interface SecondViewController : UIViewController
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC13nonathlon_iOS6Weight")
+@interface Weight : Object
+@property (nonatomic) NSInteger id;
+@property (nonatomic, copy) NSString * __nonnull name;
+@property (nonatomic, copy) NSString * __nonnull shortCode;
++ (NSString * __nullable)primaryKey;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id __nonnull)value OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithRealm:(RLMRealm * __nonnull)realm schema:(RLMObjectSchema * __nonnull)schema OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithValue:(id __nonnull)value schema:(RLMSchema * __nonnull)schema OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #pragma clang diagnostic pop
